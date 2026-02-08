@@ -1,5 +1,6 @@
 # REAL-WORLD-FINANCIAL-CONSUMER-COMPLAINTS-TABLEAU-DASHBOARD-VISUALIZATION
 Tableau Financial Complaints dashboard is based on Real World Fake Data #RWFD which is helpful in creating real life dashboards.
+<img width="651" height="498" alt="image" src="https://github.com/user-attachments/assets/9e692865-1bb8-470c-9c53-64d0eebd0bba" />
 
 **📊 Project Overview**
 
