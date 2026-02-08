@@ -63,7 +63,7 @@ Important for understanding resolution strategies
 
 Main Visualizations
 
-Complaints by Location (Hex Map)
+1. Complaints by Location (Hex Map)
 
 Interactive hex tile map showing complaint distribution across U.S. states
 Color-coded intensity showing complaint volume
@@ -71,7 +71,7 @@ Clickable states for detailed filtering
 Includes state abbreviations for easy identification
 
 
-Complaints by Product (Horizontal Bar Chart)
+2. Complaints by Product (Horizontal Bar Chart)
 
 Top financial products by complaint volume:
 
@@ -88,14 +88,14 @@ Vehicle loan or lease
 Interactive tooltips showing sub-product breakdown
 
 
-Complaints by Issue (Horizontal Bar Chart)
+3. Complaints by Issue (Horizontal Bar Chart)
 
 Most common complaint issues sorted by frequency
 Detailed sub-issue information in tooltips
 Enables quick identification of problem areas
 
 
-Complaint Resolution Trends (Stacked Bar Chart)
+4. Complaint Resolution Trends (Stacked Bar Chart)
 
 Time-series visualization of company responses
 Categories include:
@@ -111,7 +111,7 @@ Untimely response
 Shows resolution pattern evolution over time
 
 
-Submission Channel Analysis (Bar Chart)
+5. Submission Channel Analysis (Bar Chart)
 
 Breakdown of complaint submission methods:
 
@@ -126,13 +126,13 @@ Email
 Helps understand customer preferred communication channels
 
 
-Consumer Dispute Analysis (Pie Chart)
+6. Consumer Dispute Analysis (Pie Chart)
 
 Visual representation of disputed vs. non-disputed complaints
 Quick metric for overall customer satisfaction
 
 
-Detail Table
+7. Detail Table
 
 Comprehensive record-level view
 Sortable and filterable columns
@@ -143,33 +143,33 @@ Includes all key complaint attributes
 🎛️ Interactive Filters
 The dashboard includes seven dynamic parameter controls:
 
-Select Year
+1. Select Year
 
 Range: 2011 - 2020
 Enables year-over-year comparison
 Default: 2011
 
 
-Select State
+2. Select State
 
 All U.S. states including territories
 Default: All States
 Synchronized with hex map selection
 
 
-Start Date
+3. Start Date
 
 Custom date range filtering (beginning)
 Default: December 1, 2011
 
 
-End Date
+4. End Date
 
 Custom date range filtering (end)
 Default: October 13, 2020
 
 
-Company Response
+5. Company Response
 
 Filter by response type:
 
@@ -185,14 +185,14 @@ Untimely response
 
 
 
-Product
+6. Product
 
 Filter by financial product type
 Includes all product categories
 Default: All Products
 
 
-Issue
+7. Issue
 
 Filter by specific complaint issues
 70+ issue categories available
