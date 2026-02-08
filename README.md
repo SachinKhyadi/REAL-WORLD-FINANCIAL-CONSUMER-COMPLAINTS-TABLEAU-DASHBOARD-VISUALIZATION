@@ -2,8 +2,11 @@
 Tableau Financial Complaints dashboard is based on Real World Fake Data #RWFD which is helpful in creating real life dashboards.
 
 📊 Project Overview
+
 An interactive Tableau dashboard analyzing financial consumer complaints data from the Real World Fake Data (RWFD) dataset. This comprehensive visualization provides insights into complaint patterns, resolution rates, geographic distribution, and company responsiveness across various financial products and services.
+
 🎯 Objective
+
 The primary objective of this dashboard is to:
 
 Analyze and visualize consumer complaint trends across different financial products and services
@@ -14,6 +17,7 @@ Provide actionable insights for financial institutions and regulatory bodies
 Enable data-driven decision making through interactive filtering and drill-down capabilities
 
 📝 Description
+
 This dashboard leverages the RWFD dataset containing 75,513 complaint records spanning from December 2011 to October 2020. The visualization is built using Tableau's advanced features including:
 
 Interactive hex map visualization for geographic distribution
@@ -29,6 +33,7 @@ Geographic Mapping: Hex Map (Excel file for state abbreviations and coordinates)
 Data Join: Left join on State field to enable hex map visualization
 
 🔑 Key Performance Indicators (KPIs)
+
 The dashboard tracks four critical KPIs with visual gauge indicators:
 1. Timely Response Rate
 
@@ -55,6 +60,7 @@ Tracks non-monetary resolution effectiveness
 Important for understanding resolution strategies
 
 📈 Dashboard Components
+
 Main Visualizations
 
 Complaints by Location (Hex Map)
