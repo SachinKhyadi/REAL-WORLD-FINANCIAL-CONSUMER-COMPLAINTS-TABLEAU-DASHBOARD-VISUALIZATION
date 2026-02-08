@@ -1,11 +1,11 @@
 # REAL-WORLD-FINANCIAL-CONSUMER-COMPLAINTS-TABLEAU-DASHBOARD-VISUALIZATION
 Tableau Financial Complaints dashboard is based on Real World Fake Data #RWFD which is helpful in creating real life dashboards.
 
-📊 Project Overview
+**📊 Project Overview**
 
 An interactive Tableau dashboard analyzing financial consumer complaints data from the Real World Fake Data (RWFD) dataset. This comprehensive visualization provides insights into complaint patterns, resolution rates, geographic distribution, and company responsiveness across various financial products and services.
 
-🎯 Objective
+**🎯 Objective**
 
 The primary objective of this dashboard is to:
 
@@ -21,7 +21,7 @@ Provide actionable insights for financial institutions and regulatory bodies
 
 Enable data-driven decision making through interactive filtering and drill-down capabilities
 
-📝 Description
+**📝 Description**
 
 This dashboard leverages the RWFD dataset containing 75,513 complaint records spanning from December 2011 to October 2020. The visualization is built using Tableau's advanced features including:
 
@@ -35,7 +35,7 @@ KPI tracking with visual gauges and trend indicators
 
 Detailed drill-down capabilities through tooltips and detail tables
 
-Data Sources
+**Data Sources**
 
 Primary Dataset: Financial Consumer Complaints.csv
 
@@ -43,11 +43,11 @@ Geographic Mapping: Hex Map (Excel file for state abbreviations and coordinates)
 
 Data Join: Left join on State field to enable hex map visualization
 
-🔑 Key Performance Indicators (KPIs)
+**🔑 Key Performance Indicators (KPIs)**
 
 The dashboard tracks four critical KPIs with visual gauge indicators:
 
-1. Timely Response Rate
+**1. Timely Response Rate**
 
 Percentage of complaints receiving timely responses from companies
 
@@ -55,7 +55,7 @@ Indicates company compliance with response time requirements
 
 Visual gauge showing performance against benchmarks
 
-2. In Progress Rate
+**2. In Progress Rate**
 
 Percentage of complaints currently being processed
 
@@ -63,7 +63,7 @@ Tracks active complaint volume and processing efficiency
 
 Helps identify potential backlog situations
 
-3. Disputed Rate
+**3. Disputed Rate**
 
 Percentage of complaints disputed by consumers after resolution
 
@@ -71,7 +71,7 @@ Indicates consumer satisfaction with resolution outcomes
 
 Key metric for quality of complaint handling
 
-4. Resolved at No Cost Rate
+**4. Resolved at No Cost Rate**
 
 Percentage of complaints closed without monetary relief to consumers
 
@@ -79,11 +79,11 @@ Tracks non-monetary resolution effectiveness
 
 Important for understanding resolution strategies
 
-📈 Dashboard Components
+**📈 Dashboard Components**
 
 Main Visualizations
 
-1. Complaints by Location (Hex Map)
+**1. Complaints by Location (Hex Map)**
 
 Interactive hex tile map showing complaint distribution across U.S. states
 
@@ -94,7 +94,7 @@ Clickable states for detailed filtering
 Includes state abbreviations for easy identification
 
 
-2. Complaints by Product (Horizontal Bar Chart)
+**2. Complaints by Product (Horizontal Bar Chart)**
 
 Top financial products by complaint volume:
 
@@ -111,14 +111,14 @@ Vehicle loan or lease
 Interactive tooltips showing sub-product breakdown
 
 
-3. Complaints by Issue (Horizontal Bar Chart)
+**3. Complaints by Issue (Horizontal Bar Chart)**
 
 Most common complaint issues sorted by frequency
 Detailed sub-issue information in tooltips
 Enables quick identification of problem areas
 
 
-4. Complaint Resolution Trends (Stacked Bar Chart)
+**4. Complaint Resolution Trends (Stacked Bar Chart)**
 
 Time-series visualization of company responses
 Categories include:
@@ -134,7 +134,7 @@ Untimely response
 Shows resolution pattern evolution over time
 
 
-5. Submission Channel Analysis (Bar Chart)
+**5. Submission Channel Analysis (Bar Chart)**
 
 Breakdown of complaint submission methods:
 
@@ -149,13 +149,14 @@ Email
 Helps understand customer preferred communication channels
 
 
-6. Consumer Dispute Analysis (Pie Chart)
+**6. Consumer Dispute Analysis (Pie Chart)**
 
 Visual representation of disputed vs. non-disputed complaints
+
 Quick metric for overall customer satisfaction
 
 
-7. Detail Table
+**7. Detail Table**
 
 Comprehensive record-level view
 Sortable and filterable columns
@@ -163,36 +164,36 @@ Includes all key complaint attributes
 
 
 
-🎛️ Interactive Filters
+**🎛️ Interactive Filters**
 The dashboard includes seven dynamic parameter controls:
 
-1. Select Year
+**1. Select Year**
 
 Range: 2011 - 2020
 Enables year-over-year comparison
 Default: 2011
 
 
-2. Select State
+**2. Select State**
 
 All U.S. states including territories
 Default: All States
 Synchronized with hex map selection
 
 
-3. Start Date
+**3. Start Date**
 
 Custom date range filtering (beginning)
 Default: December 1, 2011
 
 
-4. End Date
+**4. End Date**
 
 Custom date range filtering (end)
 Default: October 13, 2020
 
 
-5. Company Response
+**5. Company Response**
 
 Filter by response type:
 
@@ -205,10 +206,7 @@ Closed without relief
 In progress
 Untimely response
 
-
-
-
-6. Product
+**6. Product**
 
 Filter by financial product type
 
@@ -217,7 +215,7 @@ Includes all product categories
 Default: All Products
 
 
-7. Issue
+**7. Issue**
 
 Filter by specific complaint issues
 
@@ -227,7 +225,7 @@ Default: All Issues
 
 
 
-📊 Data Fields
+**📊 Data Fields**
 Core Attributes
 
 Complaint ID: Unique identifier for each complaint
@@ -264,7 +262,7 @@ Consumer Disputed?: Whether consumer disputed the resolution
 
 Company Public Response: Public statement from company
 
-Calculated Fields
+**Calculated Fields**
 
 Total Complaints: COUNTD([Complaint ID])
 
@@ -276,7 +274,7 @@ Rounded Column: ROUND([Column], 0) for hex map positioning
 
 Gauge Metrics: MIN(0) and MIN(1) for KPI gauge visualization
 
-🛠️ Technical Details
+**🛠️ Technical Details**
 Tableau Version
 
 Built with: Tableau Desktop 2021.1.0
@@ -285,7 +283,7 @@ Compatibility: Tableau Desktop 2021.1 and later
 
 Format: Tableau Packaged Workbook (.twbx)
 
-Data Extract
+**Data Extract**
 
 Records: 75,513 complaints
 
@@ -295,7 +293,7 @@ Storage: Hyper extract for optimal performance
 
 Encoding: UTF-8
 
-Design Features
+**Design Features**
 
 Responsive layout optimized for desktop viewing
 
@@ -307,7 +305,7 @@ Custom shapes and images for visual appeal
 
 Professional color palette for clarity and accessibility
 
-🎨 Visual Design Principles
+**🎨 Visual Design Principles**
 
 Color Scheme: Professional blues and grays for business intelligence
 
@@ -319,7 +317,7 @@ Typography: Clear, readable fonts with appropriate sizing
 
 White Space: Balanced use of space for visual clarity
 
-💡 Key Insights & Use Cases
+**💡 Key Insights & Use Cases**
 For Regulatory Bodies
 
 Monitor industry-wide complaint trends
@@ -358,7 +356,7 @@ Example of effective data storytelling
 
 Portfolio project for data visualization skills
 
-📁 Repository Structure
+**📁 Repository Structure**
 ├── Financial_Complaints_Dashboard____RWFD.twbx    # Main Tableau workbook
 
 ├── README.md                                       # This file
