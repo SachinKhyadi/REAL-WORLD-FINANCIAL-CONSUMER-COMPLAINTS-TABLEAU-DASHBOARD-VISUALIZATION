@@ -283,7 +283,11 @@ Portfolio project for data visualization skills
 
 📁 Repository Structure
 ├── Financial_Complaints_Dashboard____RWFD.twbx    # Main Tableau workbook
+
 ├── README.md                                       # This file
+
 ├── screenshots/                                    # Dashboard screenshots
+
 ├── data/                                          # Sample data files (if included)
+
 └── documentation/                                 # Additional documentation
